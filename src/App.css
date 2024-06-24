@@ -3,7 +3,6 @@
 /* Base */
 body {
   /* background: url(./image/pic1.png); */
- 
   padding: 0;
   margin: 0!important;
   background-color: #000!important;
@@ -12,16 +11,6 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family: "Red Hat Display", sans-serif!important;
-}
-
-h1 {
-  background: url(../public/image/pic1.png);
-  background-size: 40%;
-  background-position: 50% 50%;
-  -webkit-background-clip: text;
-  color: hsla(0, 0%, 0%, 0.08);
-  animation: zoomout 10s ease 500ms forwards;
-  font-size: 10vw!important;
 }
 
 @keyframes zoomout {
