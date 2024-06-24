@@ -30,7 +30,7 @@ h1 {
   -webkit-background-clip: text;
   color: hsla(0, 0%, 0%, 0.08);
   animation: zoomout 10s ease 500ms forwards;
-  font-size: 10vw!important;
+  font-size: 15vw;
 }
 
 h2{
