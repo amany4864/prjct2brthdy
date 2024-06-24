@@ -3,7 +3,7 @@
 /* Base */
 body {
   /* background: url(https://i.postimg.cc/WpZg0BJH/pic1.png); */
- 
+  top: 0;
   padding: 0;
   margin: 0!important;
   background-color: #000!important;
@@ -15,6 +15,7 @@ body {
 }
 
 .Container{
+  margin-top: -15vh;
   display: flex;
   align-items:center;
   justify-content: center;
@@ -22,6 +23,7 @@ body {
 }
 
 h1 {
+  margin-top: -10px;
   background: url(https://i.postimg.cc/WpZg0BJH/pic1.png);
   background-size: 40%;
   background-position: 50% 50%;
@@ -29,6 +31,10 @@ h1 {
   color: hsla(0, 0%, 0%, 0.08);
   animation: zoomout 10s ease 500ms forwards;
   font-size: 10vw!important;
+}
+
+h2{
+  font-size: 2vw!important;
 }
 
 @keyframes zoomout {
