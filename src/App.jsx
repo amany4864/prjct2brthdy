@@ -5,8 +5,6 @@ import "./App.css"
 function App() {
   return (
   <>
-  {/* <h1>Happy</h1>
-  <h1>Birthday</h1> */}
   <h1>Anvisha</h1>
   </>
     );

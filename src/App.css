@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  background: url(./image/pic1.png);
+  background: url(../public/image/pic1.png);
   background-size: 40%;
   background-position: 50% 50%;
   -webkit-background-clip: text;
