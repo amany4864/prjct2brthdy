@@ -2,7 +2,7 @@
 
 /* Base */
 body {
-  /* background: url(./image/pic1.png); */
+  /* background: url(https://i.postimg.cc/WpZg0BJH/pic1.png); */
  
   padding: 0;
   margin: 0!important;
@@ -12,6 +12,13 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family: "Red Hat Display", sans-serif!important;
+}
+
+.Container{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h1 {
